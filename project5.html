@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>ENVIROMENTAL, SOCIAL AND GOVERNANCE (ESG) ETF OPTIMIZATION MODEL</title>
+		<title>Topping the Charts</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -35,24 +35,101 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="minor">
-									<h2>Measuring Healthcare Accessibility in<br />
-									California Using the Gravity Model</h2>
-									<p>Geographical Information Systems (GIS) has developed greatly in recent years, with software like ESRI's ArcGIS improving the analysis and visualisation of data using maps. Although there have been many studies to measure aspatial accessibility to healthcare in America, not much has been done in terms of geographical considerations.</p>
-								</header>
-                                <p class="aligncenter">
-                                    <center><img src="images/Gravity1.png" alt="" /></center><br>
-                                    <center>Figure 1: Gravity Model Visualisation</center><br><br>
-								<p>As the old adage goes, “health is wealth”. The importance of health cannot be understated,
-									 as not only is good health central to our well-being and quality of life, it is also an
-									  important determinant of economic prosperity, as healthy populations leads to higher life
-									   expectancies and greater work productivity, thus increasing their quantity and quality
-									    of work and enabling them to contribute more to the economy.<br><br>
-										Geographical accessibility to healthcare services is variable across space and time, and is based on the relationship between the relative locations of healthcare facilities/location of healthcare professionals (supply) and the population residence locations (demand), which consequently determines the spatial gap between the supply and demand of healthcare resources. To measure this, various models have been proposed such as the kernel density estimation method or the Gravity Model, which was used for this project. There have been various approaches to the Gravity Model, with some using regression, a step function, an exponential function and various permutations coefficients simulating the distance decay effect. However, there is no widely regarded best way to account for this relationship with each mentioned approach having its own drawbacks. As a result, our group visualised the Gravity Model as seen through the first figure in green on top. With this in mind, we then conducted a bivariate analysis to identify hot and cold spots, as can be seen from the figure 2 below. The hot spots identified were mainly the San Diego, Los Angeles and San Fransisco areas. The cold spots identified were mainly in the San Joaquin Valley.
+									<h2>Topping the Charts: A study on the factors affecting the popularity of Google Play mobile applications using clustering and classification techniques</h2>
+
+                                    <h3>Abstract</h3>
+
+									<p>
+										What determines the popularity of a mobile application? The popularity of 816 mobile applications on
+										Google Play are analysed in this study in terms of (1) the quantitative statistics and objective figures and
+										(2) the qualitative factors drawn from user reviews. In this study, the popularity of a mobile application
+										is defined using a score calculated using an equal weightage of the mobile application’s rating and the
+										number of installs. <br><br>
+										
+										A range of 13 classification models, including Decision Tree, Naive Bayes,
+										AdaBoost, and more, are applied to the quantitative figures, and the feature importances of each model
+										is obtained using SHapley Additive exPlanations (SHAP). On the other hand, Latent Dirichlet
+										Allocation (LDA) and K-means clustering methods are applied on positive, negative and neutral user
+										reviews, and the resulting topics are manually analysed to determine the most differentiating factors that
+										contribute to mobile application popularity. <br><br>
+										
+										In terms of quantitative factors, it was found that category
+										saturation, the number of user reviews, and the category of the mobile application are the top 3 most
+										differentiating factors; whereas in qualitative factors, popular applications tend to receive more specific
+										praises, while non-popular applications tend to receive more specific complaints. <br><br>
+										
+										This study adopts the algorithmic approach to include a broad range of data mining models, however, each model is not
+										investigated in-depth to obtain the results. The definition of “popularity” may also affect the validity of
+										the results.
 									</p>
-									<p class="aligncenter">
-										<center><img src="images/Gravity2.png" alt="" /></center><br>
-										<center>Figure 2: Bivariate Analysis of the Gravity Model</center><br><br>
-							</section>
+								</header>
+
+                                <body> 
+
+                                    <h3>Introduction</h3>
+                                    <p>
+										In recent times, the mobile application industry has surged into the forefront of technology. The global
+										mobile application market size was valued at $106 billion in 2018, and is projected to skyrocket
+										exponentially to $407 billion by 2026 (Borasi, 2019). This fast-growing market has captured the
+										attention of businesses globally, all looking towards mobile applications as a lucrative medium to bring
+										their businesses to the next level. <br><br>
+										
+										However, not all mobile applications are equally successful. Studies show that an average application
+										loses 65% of its users within the first week, while applications that top the charts only lose about 35%
+										of its users, depicting the fine line between success and failure (Sigg, 2019). Almost half of all
+										applications only ever get a handful of users in its lifespan, while only 6% of applications are really
+										considered successful, seeing a continuous rise in popularity. Due to the complexity of user behaviour,
+										compounded by the intricacies of mobile applications, discovering the unseen attributes of successful
+										applications remains to be highly demanded knowledge among mobile application developers. <br><br>
+										
+										In this article, we study the factors affecting the popularity of Google Play mobile applications using
+										clustering and classification techniques. A two-pronged approach will be adopted throughout this study,
+										splitting the research into two main research questions (RQs). <br><br>
+
+										RQ1: What are the quantitative statistics and objective figures that affect the popularity of a mobile
+										application on Google Play? <br><br>
+										
+										Factors in our dataset which will be used for RQ1 include the following: application category, number
+										of reviews, application size, content rating, number of days before latest update, genre saturation,
+										category saturation, number of characters present in application name, presence of numbers in
+										application name, and presence of punctuation in application name. These factors are either predefined,
+										or are calculated based on available attributes in the dataset obtained. These factors are also all
+										quantitative information about the applications. Various forms of classification techniques will be
+										applied on the data to determine the top 3 factors that contribute the most to the popularity and success
+										of a mobile application . <br><br>
+										
+										RQ2: What other qualitative factors can be drawn from comparing user reviews of popular and
+										non-popular applications on Google Play? <br><br>
+										
+										In order to balance the more quantitative approach in RQ1, RQ2 seeks to adopt more qualitative
+										approaches which involve subjective factors. Sentiment analysis and other forms of natural language
+										processing (NLP) will be used to gather insights on the impact of user reviews on Google Play Store of
+										highly and lowly rated mobile applications. Clustering techniques will be applied on the data to
+										determine the most differentiating point between popular and non-popular mobile applications.										
+                                    </p>
+
+                                    <h3>Discussion</h3>
+                                    <p>
+										Compared with conventional methods, our project takes a fresh approach to analysing the factors that
+										determine the popularity of the app. We made use of both classification and clustering data mining
+										techniques, utilising both quantitative and qualitative analysis methods. A range of 13 classification
+										models, including Decision Tree, Naive Bayes, AdaBoost and more were applied to the quantitative
+										figures, and the feature importance of each model is analysed using SHAP, On the other hand, Latent
+										Dirichlet Allocation (LDA) and K-means clustering methods are applied on positive, negative and
+										neutral user reviews, and the resulting topics are manually analysed to determine the most
+										differentiating factors that contribute to mobile application popularity. <br><br>
+										
+										While many classification models were used to work on RQ1, our team acknowledges that using many
+										models may lead to inaccurate conclusions as there may be a broad focus but a lack of deeper focus.
+										Clustering techniques used have a limitation as well, some cluster results have high similarity with each
+										other and it is difficult to be interpreted. Moreover, choosing an optimal k value for the clusters is
+										subjective as well. Furthermore, the definition of “popular” applications anchors the whole study. A
+										change in this definition will lead to different results.
+                                    </p>
+                                </body>
+
+					
+										</section>
 
 					</div>
 
